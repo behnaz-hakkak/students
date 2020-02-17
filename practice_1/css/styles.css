@@ -1,0 +1,45 @@
+.row {
+    margin:0;
+}
+
+.container {
+    padding: 0;
+}
+
+.main-header  {
+    background: #000;
+}
+.main-header-inner {
+    display: block;
+    height:50px;
+}
+.main-header-inner ul {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    line-height: 47px;
+}
+.main-header-inner ul li {
+    display: inline-block;
+}
+
+.main-header-inner ul:first-child {
+    float: right;
+}
+
+.main-header-inner ul:nth-child(2) {
+    float: left;
+}
+
+.main-header-inner ul li .each-main-menu-link {
+    color: #fff;
+    font: 12px Tahoma;
+    padding-left: 15px;
+}
+
+.each-student-sec {
+    margin-bottom: 15px;
+    background: green;
+}
